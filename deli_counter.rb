@@ -14,4 +14,6 @@ def line(katz_deli)
   end
 end
 
-def
+def take_a_number(katz_deli, name)
+  Katz_deli << name
+  puts "W"
