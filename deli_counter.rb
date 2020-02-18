@@ -16,4 +16,9 @@ end
 
 def take_a_number(katz_deli, name)
   Katz_deli << name
-  puts "W"
+  puts "Welcome, #{name}. You are number #{katz_deli.size} in line."
+end
+
+def now_serving(katz_deli)
+  if katz_deli.empty?
+    puts "There "
